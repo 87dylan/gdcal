@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.gdrakpa.gdcal.MainActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp"
+    tools:showIn="@layout/activity_main">
+    android:background="color/black"
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="88dp"
+        android:layout_height="49dp"
+        android:background="@color/colorAccent"
+        android:onClick="store"
+        android:text="@string/tibetan1"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/button10"
+        app:layout_constraintLeft_toLeftOf="@+id/button4"
+        app:layout_constraintRight_toRightOf="@+id/button4"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="88dp"
+        android:layout_height="49dp"
+        android:background="@color/colorAccent"
+        android:onClick="store"
+
+        android:text="@string/tibetan2"
+        android:textSize="36sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button"
+        app:layout_constraintLeft_toLeftOf="@+id/button5"
+        app:layout_constraintRight_toRightOf="@+id/button5"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="88dp"
+        android:layout_height="49dp"
+        android:background="@color/colorAccent"
+        android:onClick="store"
+        android:text="@string/tibetan3"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/button16"
+        app:layout_constraintLeft_toLeftOf="@+id/button6"
+        app:layout_constraintRight_toRightOf="@+id/button6"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="88dp"
+        android:layout_height="49dp"
+        android:background="@color/colorAccent"
+        android:onClick="store"
+        android:text="@string/tibetan4"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintLeft_toLeftOf="@+id/button7"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1" />
+
+    <Button
+        android:id="@+id/button5"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="88dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:background="@color/colorAccent"
+        android:onClick="store"
+        android:text="@string/tibetan5"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintRight_toRightOf="@+id/button8"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <Button
+        android:id="@+id/button6"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="88dp"
+        android:layout_height="49dp"
+        android:background="@color/colorAccent"
+        android:onClick="store"
+        android:text="@string/tibetan6"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintLeft_toLeftOf="@+id/button9"
+        app:layout_constraintRight_toRightOf="@+id/button9"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <Button
+        android:id="@+id/button7"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="88dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="16dp"
+        android:background="@color/colorAccent"
+        android:onClick="store"
+        android:text="@string/tibetan7"
+        android:textSize="36sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button8"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintLeft_creator="1" />
+
+    <Button
+        android:id="@+id/button8"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="88dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="98dp"
+        android:background="@color/colorAccent"
+        android:onClick="store"
+        android:text="@string/tibetan8"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/button15"
+        app:layout_constraintLeft_toRightOf="@+id/button7"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1" />
+
+    <Button
+        android:id="@+id/button9"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="88dp"
+        android:layout_height="49dp"
+        android:background="@color/colorAccent"
+        android:onClick="store"
+        android:text="@string/tibetan9"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintLeft_toRightOf="@+id/button5"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1" />
+
+    <Button
+        android:id="@+id/button10"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="88dp"
+        android:layout_height="49dp"
+        android:background="@color/colorAccent"
+        android:onClick="store"
+        android:text="@string/tibetan0"
+        android:textSize="36sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button15"
+        app:layout_constraintLeft_toLeftOf="@+id/button"
+        app:layout_constraintRight_toRightOf="@+id/button"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <Button
+        android:id="@+id/button11"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="88dp"
+        android:layout_height="49dp"
+        android:background="@android:color/holo_orange_light"
+        android:onClick="store"
+        android:text="@string/plussign"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/button12"
+        app:layout_constraintLeft_toLeftOf="@+id/button14"
+        app:layout_constraintRight_toRightOf="@+id/button14"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <Button
+        android:id="@+id/button12"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="88dp"
+        android:layout_height="0dp"
+        android:background="@android:color/holo_orange_light"
+        android:onClick="store"
+        android:text="@string/minussign"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="@+id/button16"
+        app:layout_constraintLeft_toLeftOf="@+id/button11"
+        app:layout_constraintRight_toRightOf="@+id/button11"
+        app:layout_constraintTop_toTopOf="@+id/button16"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <Button
+        android:id="@+id/button13"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="88dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginStart="2dp"
+        android:background="@android:color/holo_orange_light"
+        android:onClick="store"
+        android:text="@string/dividesign"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/button14"
+        app:layout_constraintLeft_toRightOf="@+id/button9"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1" />
+
+    <Button
+        android:id="@+id/button14"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="88dp"
+        android:layout_height="49dp"
+        android:background="@android:color/holo_orange_light"
+        android:onClick="store"
+        android:text="@string/x"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/button11"
+        app:layout_constraintLeft_toLeftOf="@+id/button13"
+        app:layout_constraintRight_toRightOf="@+id/button13"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="340dp"
+        android:layout_height="135dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="33dp"
+
+        android:gravity="center_vertical"
+        android:text="@string/myname"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="?attr/colorAccent"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <Button
+        android:id="@+id/button15"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="88dp"
+        android:layout_height="49dp"
+
+        android:layout_marginBottom="93dp"
+        android:background="@android:color/holo_blue_bright"
+        android:onClick="store"
+        android:text="@string/equal"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/button8"
+        app:layout_constraintRight_toRightOf="@+id/button8"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <Button
+        android:id="@+id/button16"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="88dp"
+        android:layout_height="49dp"
+
+        android:background="@android:color/holo_blue_bright"
+        android:onClick="store"
+        android:text="@string/clear"
+        android:textSize="36sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button15"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/button3"
+        app:layout_constraintRight_toRightOf="@+id/button3"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+</android.support.constraint.ConstraintLayout>

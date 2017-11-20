@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">gdcal</string>
+    <string name="action_settings">Settings</string>
+    <string name="x">x</string>
+    <string name="equal">=</string>
+    <string name="clear">C</string>
+    <string name="dividesign">/</string>
+    <string name="minussign">-</string>
+    <string name="plussign">+</string>
+    <string name="tibetan0">0</string>
+    <string name="tibetan9">9</string>
+    <string name="tibetan8">8</string>
+    <string name="tibetan7">7</string>
+    <string name="tibetan6">6</string>
+    <string name="tibetan5">5</string>
+    <string name="tibetan4">4</string>
+    <string name="tibetan3">3</string>
+    <string name="tibetan2">2</string>
+    <string name="tibetan1">1</string>
+    <string name="myname">gedun drakpa</string>
+
+</resources>
